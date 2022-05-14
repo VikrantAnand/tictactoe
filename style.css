@@ -1,0 +1,32 @@
+#c5 {
+    border: 1px solid black;
+}
+
+#c2,
+#c8 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#c4,
+#c6 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.game td {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 120px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.game td:hover {
+    background-color: #cff2ff;
+}
+
+.game {
+    border-collapse: collapse;
+}
